@@ -13,7 +13,7 @@ function App() {
 
   const handleClick = () => {
     console.log(mass);
-    const area = mass.width * 1000;
+    const area = mass.width * 100;
     const square = mass.price / area;
     setPrice(Math.round(square * (mass.widthFinish * mass.heightFinish)));
   };
